@@ -3,8 +3,8 @@
 Purpose
 --------------
 
-Take a FB Login in parameter, check with Facebook API if it is valid.
-If yes, return a JsonWebToken which can be used for API authentication.
+Take a FB Token in parameter, check with Facebook API if it is valid.
+If yes, return a JsonWebToken which can be used for API request authentication.
 If not, return the error message.
 
 Example
